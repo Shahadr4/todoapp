@@ -1,6 +1,31 @@
-# Getting Started with Create React App
+# TodoMate - A Simple React Todo App 📝
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TodoMate is a simple and elegant Todo application built with React. It allows users to add, edit, delete, and search tasks efficiently. The app is designed with a clean and modern UI to enhance user experience.
+
+---
+
+## Features
+
+- **Add Tasks**: Quickly add tasks to your list.
+- **Edit Tasks**: Modify tasks with ease.
+- **Delete Tasks**: Remove tasks you no longer need.
+- **Search Tasks**: Filter tasks in real-time using the search bar.
+- **Responsive Design**: Works seamlessly on different screen sizes.
+
+---
+
+## Screenshots
+
+### Home Page
+![Home Page](./screenshots/home-page.png)
+
+### Adding a Task
+![Adding a Task](./screenshots/add-task.png)
+
+### Searching Tasks
+![Searching Tasks](./screenshots/search-task.png)
+
+---
 
 ## Available Scripts
 
@@ -37,34 +62,14 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However, we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Follow these steps to set up the project locally:
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/todomate.git
