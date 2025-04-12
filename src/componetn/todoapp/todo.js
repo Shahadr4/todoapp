@@ -47,6 +47,20 @@ const Todo = () => {
   const filteredTasks = tasks.filter(task =>
     task.text.toLowerCase().includes(searchTerm)
   );
+  const upTask= (index) => {
+    if(index === 0) return; // Prevent moving the first task up
+    const updated = [...tasks];
+    [updated[index] ,updated[index-1] ]=[updated[index-1],updated[index]]
+    setTasks(updated);
+
+  }
+  const downTask= (index) => {
+    if(index === tasks.length-1) return; // Prevent moving the last task down
+    const updated = [...tasks];
+    [updated[index] ,updated[index+1] ]=[updated[index+1],updated[index]]
+    setTasks(updated);
+
+  }
 
   return (
     <div className="todo-container">
@@ -73,7 +87,10 @@ const Todo = () => {
             )}
             <div className="actions">
               <button onClick={() => toggleEdit(index)}>{task.isEditing ? "Save" : "Edit"}</button>
-              <button onClick={() => deleteTask(index)}>Delete</button>
+            <button onClick={() => deleteTask(index)}>Delete</button>
+            <button onClick={() => upTask(index)}>☝️</button>
+            <button onClick={() => downTask(index)}>👇</button>
+
             </div>
           </li>
         ))}
