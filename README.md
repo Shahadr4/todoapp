@@ -18,7 +18,7 @@ TodoMate is a simple and elegant Todo application built with React. It allows us
 
 ### Home Page
 <p align="center">
-  <img src="screenshot/Screenshot 2025-04-10 212344.png" alt="Screenshot" width="600"/>
+  <img src="screenshot/Screenshot 2025-04-12 195726.png" alt="Screenshot" width="600"/>
 </p>
 
 
