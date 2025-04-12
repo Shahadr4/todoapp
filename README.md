@@ -9,7 +9,7 @@ TodoMate is a simple and elegant Todo application built with React. It allows us
 - **Add Tasks**: Quickly add tasks to your list.
 - **Edit Tasks**: Modify tasks with ease.
 - **Delete Tasks**: Remove tasks you no longer need.
-- **Search Tasks**: Filter tasks in real-time using the search bar.
+- **up and down**: we can change position of task into upward and downward 
 - **Responsive Design**: Works seamlessly on different screen sizes.
 
 ---
